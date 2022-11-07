@@ -4,12 +4,14 @@
   "description": "NodeJS template with Typescript, Docker, ESLint, Prettier",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "author": "pavel@prna.ru",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   }
 }
